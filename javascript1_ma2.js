@@ -17,7 +17,7 @@ var numbers =[1,2,3,4,5,6,7,8,9,10];
 var fiveth = numbers.slice(4,5);
 
 //3. Delete the last number in the array that you created above.
-
+var noLast = numbers.slice(0,numers.length-1);
 
 //4. Given the following paragraph, create a JavaScript function that changes all mentions of strawberry to banana and strawberries to bananas: 
 Strawberries are a popular part of spring and summer diets throughout America. Mouths water from coast to coast each spring, when small white blossoms start to appear on strawberry bushes. They announce the impending arrival of the ruby red berries that so many people crave. Ripe strawberries taste sweet and have only a slight hint of tartness. They are also one of the healthiest fruits around. There are countless recipes for the luscious red berry, but many people prefer to eat them fresh and unaccompanied.
