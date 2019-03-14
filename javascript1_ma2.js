@@ -13,7 +13,8 @@ var p1 = new Person();
 pl.name();
 
 //2. Create an array of numbers from 1 - 10; slice the 5th number in the array
-
+var numbers =[1,2,3,4,5,6,7,8,9,10];
+var fiveth = numbers.slice(4,5);
 
 //3. Delete the last number in the array that you created above.
 
