@@ -1,6 +1,16 @@
 //MODULE ASSIGNMENT 2 - LEVEL 1
 //1. Create a function that displays prototypal inheritance
+function Person() {
+    this.firstname = "John"
+	this.lastname = "Will"
+}
 
+Person.prototype.name = function(){
+	console.log(this.firstName + " " + this.lastName);
+};
+  
+var p1 = new Person();
+pl.name();
 
 //2. Create an array of numbers from 1 - 10; slice the 5th number in the array
 
