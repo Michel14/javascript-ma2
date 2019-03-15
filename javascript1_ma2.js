@@ -38,7 +38,15 @@ function deleteAllClubs (){
 }
 
 //6. Create an array of objects with 3 people inside it. Use the filter function to map by a name.
-
+var persons = [
+	{firstName:"John", lastName:"Will", age:25},
+	{firstName:"Lisa", lastName:"Dahl", age:30},
+	{firstName:"Ove", lastName:"Hansen", age:35},
+]
+var p2 = persons.filter(function(firstName){
+	return (firstName.lastName === "Dahl");
+})
+console.log(p2);
 
 //7. Create a simple function that logs the date.
 
