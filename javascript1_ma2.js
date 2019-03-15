@@ -49,4 +49,7 @@ var p2 = persons.filter(function(firstName){
 console.log(p2);
 
 //7. Create a simple function that logs the date.
-
+function showDate() {
+	var currentDate = new Date();
+    	console.log(currentDate);
+}
